@@ -31,8 +31,8 @@ USE `movies_rating_database`;
 --
 DROP USER IF EXISTS 'movies'@'localhost';
 
-create user 'movies'@'localhost' identified by '2345';
-grant all privileges on *.*to'movies'@'localhost' identified by '2345';
+create user 'movies'@'localhost' identified by '';
+grant all privileges on *.*to'movies'@'localhost' identified by '';
 
 FLUSH PRIVILEGES;
 
