@@ -1,0 +1,49 @@
+[id*=movie_id]{
+	float:left;
+}
+
+[id*=movie_id] > input[id*=star] {
+	display:none;
+	position:absolute;
+	top:-9999px;
+	clip:rect(0,0,0,0);
+}
+
+[id*=movie_id]  > [for*=star] {
+	float:right;
+	width:.80em;
+	padding:.3px;
+	overflow:hidden;
+	white-space:nowrap;
+	cursor:pointer;
+	font-size:200%;
+	line-height:1.2;
+	color:#ddd;
+}
+
+[id*=movie_id]  > label[for*=star]:before {
+	content:"\2606";
+}
+
+[id*=movie_id]  > input[id*=star]:checked ~ label[for*=star] {
+	color:#f70;
+}
+
+[id*=movie_id] > label[for*=star]:hover,
+[id*=movie_id]  > label[for*=star]:hover ~ label[for*=star] {
+	color:gold;
+}
+
+[id*=movie_id]  > input[id*=star]:checked + label[for*=star]:hover,
+[id*=movie_id]  > input[id*=star]:checked + label[for*=star]:hover ~ label[for*=star],
+[id*=movie_id]  > input[id*=star]:checked ~ label[for*=star]:hover,
+[id*=movie_id] > input[id*=star]:checked ~ label[for*=star]:hover ~ label[for*=star],
+[id*=movie_id]  > label[for*=star]:hover ~ input[id*=star]:checked ~ label[for*=star] {
+	color:#ea0;
+}
+
+[id*=movie_id]  > label[for*=star]:active {
+	position:relative;
+	top:2px;
+	left:2px;
+}

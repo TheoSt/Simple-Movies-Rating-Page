@@ -1,0 +1,59 @@
+body {
+    background-image:url("http://hashmag.gr/wp-content/uploads/2016/01/VO-cinema-in-Barcelona.jpg");
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	text-align: center;
+	height:100%;
+}
+
+h1 {
+    font-family:Georgia,Serif;
+    font-size: 50px;
+	color:white;
+}
+
+h3{
+    font-size: 40px;
+	color:white;
+}
+
+.form {
+	margin:auto;
+	width:50%;
+	height:300px;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color:#2D2C2C;
+	border-radius:10px;
+}
+
+.list {
+	margin:50px;
+}
+
+button {
+    margin-left: 40px;
+	width:20%;
+	font-family:Georgia,Serif;
+	font-size:130%;
+	border-radius: 5px;
+	background-color:#016cff;
+	color:white;
+}
+
+select {
+	font-size:120%;
+    color:white;
+    background-color:#444;
+    padding:5px;
+	width:20%;
+}
+
+footer {
+	color:white;
+	position:absolute;
+	bottom:0;
+}

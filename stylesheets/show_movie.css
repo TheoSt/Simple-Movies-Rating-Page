@@ -1,0 +1,42 @@
+body{
+    background-color:#2D2C2C;
+}
+
+.movie-header,#results {
+	margin:50px;
+    text-align:center;
+    color:white;
+    font-family:Georgia;
+    font-size: 50px;
+}
+
+.img {
+    float:left;
+    position:relative;
+    left:20px;
+    margin-right:60px;
+	margin-bottom:20px;
+	border-radius:.3em;
+	height:500px;
+}
+
+.details {
+	font-size:20px;
+	font-family:Georgia;
+	margin-left:20px;
+	color:white;
+}
+
+.details [id*=rating] {
+	font-size:30px;
+	font-family:Georgia;
+	margin-left:10px;
+	margin-top:10px;
+	color:yellow;
+}
+
+footer {
+	color:white;
+	position:absolute;
+	bottom:0;
+}
